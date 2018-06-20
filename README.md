@@ -1,2 +1,5 @@
 # data-augumentation
 enl是endnote文件，用endnote打开之后可以看到所有文章的分类及描述（强烈推荐endnote阅读文献，超方便的，科研利器！！）
+data_aug里是我的实验代码
+如果想在自己的电脑中跑起来，需要更改flags.dir到自己的目录，这里是在自己公司的服务器上顺利运行的代码
+代码包括两个模型，一个是classifier，针对八类肺病进行分类，另一个是combined model，加入了一个GAN模型，可以把两张图片图片合成一张新的图片
